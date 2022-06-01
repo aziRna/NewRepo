@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[YatirTbl] (
+    [Tid]     INT          IDENTITY (1, 1) NOT NULL,
+    [HesapNo] VARCHAR (50) NOT NULL,
+    [Tip]     VARCHAR (50) NOT NULL,
+    [Miktar]  INT          NOT NULL,
+    [TDate]   VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Tid] ASC)
+);
+
